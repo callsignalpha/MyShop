@@ -10,7 +10,7 @@ using System.Web;
 
 namespace MyShop.Services
 {
-    class BasketService : IBasketService
+    public class BasketService : IBasketService
     {
         //read the cookies from user scomputer
         IRepository<Product> productContext;
